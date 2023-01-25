@@ -1,0 +1,68 @@
+body {
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.search_input::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1;
+    /* Firefox */
+}
+
+.search_input {
+    outline: none;
+    color: white;
+}
+
+.items_footer {
+    max-width: 1000px;
+}
+
+.produto {
+    min-height: 600px;
+}
+
+.listaproduto::-webkit-scrollbar {
+    width: 0px;
+}
+
+.list {
+    position: relative;
+}
+
+.containerlp {
+    display: flex;
+    position: relative;
+}
+
+.controllerLeft {
+    cursor: pointer;
+    position: absolute;
+    height: 100%;
+    width: 40px;
+    background-color: rgba(0, 0, 0, 0.192);
+}
+
+.controllerLeft img {
+    width: 18px;
+}
+
+.controllerRight {
+    cursor: pointer;
+    position: absolute;
+    height: 100%;
+    width: 40px;
+    background-color: rgba(0, 0, 0, 0.192);
+    float: right;
+    right: 0;
+}
+
+.controllerRight img {
+    width: 18px;
+}
+
+.controllerRight:hover {}
